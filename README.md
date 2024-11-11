@@ -48,17 +48,17 @@
   It is used to train the machine learning model.
 
 # Technologies Used
-   . Python: Primary programming language for developing the application.
-   . scikit-learn: For machine learning algorithms and model training.
-   . pandas: For data manipulation and preprocessing.
-   . numpy: For numerical operations and calculations.
-   . Flask (optional): For building a web interface to interact with the model.
-   . matplotlib (optional): For visualizing the data and results.
+   * Python: Primary programming language for developing the application.
+   * scikit-learn: For machine learning algorithms and model training.
+   * pandas: For data manipulation and preprocessing.
+   * numpy: For numerical operations and calculations.
+   * Flask (optional): For building a web interface to interact with the model.
+   * matplotlib (optional): For visualizing the data and results.
 
 # Future Scope
-  . Improved Model: Incorporating additional data sources and advanced machine learning models like neural networks for higher accuracy.
-  . Real-time Data Collection: Integrating the system with wearables or medical devices to collect real-time health data for diabetes prediction.
-  . Mobile App Integration: Creating a mobile application for users to check their diabetes risk based on their health data.
-  . Personalized Recommendations: Providing lifestyle and dietary recommendations based on the prediction results.
-  . Global Dataset Integration: Expanding the model to work with global datasets for better prediction across diverse populations.
+  * Improved Model: Incorporating additional data sources and advanced machine learning models like neural networks for higher accuracy.
+  * Real-time Data Collection: Integrating the system with wearables or medical devices to collect real-time health data for diabetes prediction.
+  * Mobile App Integration: Creating a mobile application for users to check their diabetes risk based on their health data.
+  * Personalized Recommendations: Providing lifestyle and dietary recommendations based on the prediction results.
+  * Global Dataset Integration: Expanding the model to work with global datasets for better prediction across diverse populations.
   
