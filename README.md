@@ -1,4 +1,4 @@
-#Diabetes Detector#
+#Diabetes Detector
   This is a Python-based project aimed at detecting the likelihood of a person having diabetes using machine learning and artificial intelligence (AI/ML) techniques.
   The project predicts the probability of diabetes based on various health-related parameters such as age, BMI, blood pressure, and other factors.
 
