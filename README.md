@@ -19,7 +19,7 @@ Diabetes-Detector/
 ├── requirements.txt         # List of dependencies
 └── README.md                # This README file
 
-
+##
 
 
 # Instructions to Run the Program#
@@ -44,7 +44,7 @@ Diabetes-Detector/
   The program will ask for input values like age, BMI, blood pressure, etc., and provide the prediction result on whether the user is at risk of diabetes.
 
 # Dataset
- ##
+ 
   The dataset used for training is available in the data/dataset.csv file. This dataset contains several medical parameters along with labels indicating whether the person has diabetes or not.
   It is used to train the machine learning model.
 
