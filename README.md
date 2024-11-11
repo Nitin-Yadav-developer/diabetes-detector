@@ -3,10 +3,7 @@
   The project predicts the probability of diabetes based on various health-related parameters such as age, BMI, blood pressure, and other factors.
 
 # Project Structure
-
-##
-
-
+#
   * Diabetes-Detector/
   * ├── data/
   * │   ├── dataset.csv          # The dataset used for training the model
@@ -21,7 +18,7 @@
   * ├── requirements.txt         # List of dependencies
   * └── README.md                # This README file
 
-
+#
 
 
 # Instructions to Run the Program#
