@@ -5,19 +5,21 @@
 # Project Structure
 
 ##
-Diabetes-Detector/
-├── data/
-│   ├── dataset.csv          # The dataset used for training the model
-├── model/
-│   ├── diabetes_model.pkl   # Trained machine learning model
-├── src/
-│   ├── __init__.py
-│   ├── data_processing.py   # Data cleaning and preprocessing
-│   ├── model_training.py    # Model training and evaluation
-│   ├── predictor.py         # Prediction logic
-│   └── app.py               # Main program to run the detection
-├── requirements.txt         # List of dependencies
-└── README.md                # This README file
+
+
+  > Diabetes-Detector/
+  > ├── data/
+  > │   ├── dataset.csv          # The dataset used for training the model
+  > ├── model/
+  > │   ├── diabetes_model.pkl   # Trained machine learning model
+  > ├── src/
+  > │   ├── __init__.py
+  > │   ├── data_processing.py   # Data cleaning and preprocessing
+  > │   ├── model_training.py    # Model training and evaluation
+  > │   ├── predictor.py         # Prediction logic
+  > │   └── app.py               # Main program to run the detection
+  > ├── requirements.txt         # List of dependencies
+  > └── README.md                # This README file
 
 ##
 
