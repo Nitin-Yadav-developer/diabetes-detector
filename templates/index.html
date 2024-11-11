@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diabetes Checker Chatbot</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    
+</head>
+<body>
+    <center>
+
+    <h1>Diabetes Checker Chatbot</h1>
+
+    <form action="/chat" method="post">
+        <label for="message">Message:</label>
+        <input type="text" name="message" placeholder="Type 'CHECK DIABETES' to start" required><br><br>
+        
+        <p><strong>Enter your health data (all fields are required):</strong></p>
+
+        <label for="age">Age:</label>
+        <input type="number" name="age" step="any" placeholder="Age" required><br><br>
+
+        <label for="glucose">Glucose:</label>
+        <input type="number" name="glucose" step="any" placeholder="Glucose" required><br><br>
+
+        <label for="bloodpressure">Blood Pressure:</label>
+        <input type="number" name="bloodpressure" step="any" placeholder="Blood Pressure" required><br><br>
+
+        <label for="skinthickness">Skin Thickness:</label>
+        <input type="number" name="skinthickness" step="any" placeholder="Skin Thickness" required><br><br>
+
+        <label for="insulin">Insulin:</label>
+        <input type="number" name="insulin" step="any" placeholder="Insulin" required><br><br>
+
+        <label for="bmi">BMI:</label>
+        <input type="number" name="bmi" step="any" placeholder="BMI" required><br><br>
+
+        <label for="diabetespedigreefunction">Diabetes Pedigree Function:</label>
+        <input type="number" name="diabetespedigreefunction" step="any" placeholder="Diabetes Pedigree Function" required><br><br>
+
+        <label for="pregnancies">Pregnancies:</label>
+        <input type="number" name="pregnancies" step="any" placeholder="Pregnancies" required><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+
+    {% if user_input and bot_response %}
+        <p><strong>You:</strong> {{ user_input }}</p>
+        <p><strong>Bot:</strong> {{ bot_response }}</p>
+    {% endif %}
+
+</center>
+</body>
+</html>

@@ -1,0 +1,11 @@
+<aiml version="1.0.1" encoding="UTF-8">
+  <category>
+    <pattern>HELLO</pattern>
+    <template>Hello! I am here to help you check for diabetes. Please type 'CHECK DIABETES' to get started.</template>
+  </category>
+  
+  <category>
+    <pattern>CHECK DIABETES</pattern>
+    <template>Please provide your details in this order: Age, Glucose, BloodPressure, SkinThickness, Insulin, BMI, DiabetesPedigreeFunction, and Pregnancies. Separate each value with a comma.</template>
+  </category>
+</aiml>
